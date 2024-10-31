@@ -12,7 +12,6 @@ const PlayDrawingCanvas: React.FC = () => {
     null
   );
 
-  // Remove the useEffect that calls drawFieldBackground on penColor change
   useEffect(() => {
     const canvas = canvasRef.current;
     const context = canvas?.getContext("2d");
