@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Football Play Drawing Canvas
 
-## Getting Started
+An interactive NextJs web app for drawing and designing football plays. This canvas allows coaches and players to create, visualize, and save football play diagrams with various formations and customization options.
 
-First, run the development server:
+## Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://github.com/user-attachments/assets/8ea2bedb-6d5f-4302-a229-aea24881a6c3
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎨 Multi-color drawing tools for creating custom plays and routes
+- 🏈 Pre-built formation templates:
+  - Basic offensive formation with 5 linemen
+  - 3-4 defensive formation
+- 📏 Field guidelines including:
+  - Line of scrimmage
+  - Hash marks
+- 🖱️ Interactive drawing capabilities:
+  - Left-click and drag to draw free-form lines
+  - Right-click to place 'O' markers
+- 🎨 Color palette with 6 different colors:
+  - Black
+  - Blue
+  - Green
+  - Purple
+  - Red
+  - Orange
+- 💾 Save functionality to export plays as PNG images
+- 🔄 Clear canvas option to start fresh
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Controls
 
-## Learn More
+- **Left Mouse Button**: Draw free-form lines
+- **Right Mouse Button**: Place 'O' markers
+- **Color Palette**: Click on any color to change the drawing color
+- **Offensive Formation**: Click to place a basic offensive line formation
+- **3-4 Defense**: Click to place a 3-4 defensive formation
+- **Clear**: Reset the canvas
+- **Save**: Download the current play as a PNG file
 
-To learn more about Next.js, take a look at the following resources:
+## Technical Details
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Built with React and TypeScript
+- Uses HTML5 Canvas for drawing
+- Responsive design with Tailwind CSS
+- Client-side only - no backend required
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! Please feel free to submit a Pull Request.
