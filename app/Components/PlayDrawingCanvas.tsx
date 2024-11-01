@@ -470,7 +470,7 @@ const PlayDrawingCanvas: React.FC = () => {
         className="border-2 bg-white border-gray-300"
       />
 
-      {/* Play Details Section */}
+      {/* Play Details Section
       {playDetails.name && (
         <div className="mt-4 w-full max-w-[1200px] border p-4 text-black bg-gray-50">
           <div className="grid grid-cols-2 gap-4">
@@ -490,7 +490,7 @@ const PlayDrawingCanvas: React.FC = () => {
             </div>
           )}
         </div>
-      )}
+      )} */}
     </div>
   );
 };
